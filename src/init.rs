@@ -30,7 +30,7 @@ end
 "#
         }
 
-        Shell::PowerShell => {
+        Shell::Powershell => {
             r#"
 function nd
   param(

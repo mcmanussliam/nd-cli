@@ -38,5 +38,5 @@ pub enum Shell {
     Bash,
     Zsh,
     Fish,
-    PowerShell,
+    Powershell,
 }
