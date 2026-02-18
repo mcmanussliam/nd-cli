@@ -1,0 +1,18 @@
+[package]
+name = "nd-cli"
+version = "0.1.0"
+edition = "2024"
+description = "nd-cli, a terminal directory navigator"
+readme = "README.md"
+keywords = ["cli", "navigation", "terminal", "filesystem"]
+categories = ["command-line-utilities"]
+license = "MIT"
+rust-version = "1.85"
+
+[dependencies]
+clap = { version = "4.5.58", features = ["derive"] }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true
