@@ -1,0 +1,5 @@
+[book]
+title = "nd-cli"
+authors = ["Liam McManus"]
+language = "en"
+src = "src"
